@@ -1,0 +1,79 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', Arial, sans-serif;
+}
+
+/* button */
+
+.btn-primary {
+    padding: 12px 22px;
+    box-shadow: 4.5px 4.5px  0 0 #616161;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    box-shadow: none;
+    /* border-radius: inherit; */
+    transform: translateY(0.25em);
+
+}
+
+/* primary header */
+
+.even-columns { 
+    width: max-content;
+    background: #f04c23;
+    box-shadow: 10px 7px 0 0 #f79a82;   
+}
+
+.phone-call {
+    font-size: 15px;
+}
+
+.contact {
+    transform: skewX(-25deg);
+}
+
+.contact-list {
+    transform: skewX(25deg);   
+}
+
+/* strategy execution */
+
+.bg-image {
+    background: url(images/background-woman.png);
+    background-repeat: no-repeat;
+    background-size: (100%, 50%);
+    background-position: top right;
+}
+
+.slider-one {
+    /* overflow: hidden; */
+}
+
+.slider-one > li {
+    cursor: pointer;
+    min-width: 310px;
+    background: white;
+    padding: 45px 36px;
+}
+
+
+
+
+
+.padding-block {
+    padding-left: 113px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
