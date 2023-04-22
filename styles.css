@@ -29,9 +29,9 @@ body {
 /* primary header */
 
 .even-columns { 
-    width: max-content;
+    min-width: max-content;
     background: #f04c23;
-    box-shadow: 10px 7px 0 0 #f79a82;   
+    box-shadow: 12px 8px 0 0 #f79a82;   
 }
 
 .phone-call {
@@ -40,10 +40,16 @@ body {
 
 .contact {
     transform: skewX(-25deg);
+    /* margin-top: 1px; */
+    padding: 0 0 0 5px;
 }
 
 .contact-list {
     transform: skewX(25deg);   
+}
+
+.social-icon:hover {
+    border: 1px solid red;
 }
 
 /* strategy execution */
@@ -53,6 +59,11 @@ body {
     background-repeat: no-repeat;
     background-size: (100%, 50%);
     background-position: top right;
+}
+
+.hambuger {
+    position: relative;
+   left: 112px;
 }
 
 .slider-one {
@@ -65,6 +76,7 @@ body {
     background: white;
     padding: 45px 36px;
 }
+
 
 
 
