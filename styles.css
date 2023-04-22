@@ -31,7 +31,7 @@ body {
 .even-columns { 
     min-width: max-content;
     background: #f04c23;
-    box-shadow: 12px 8px 0 0 #f79a82;   
+    box-shadow: 10px 7px 0 0 #f79a82;   
 }
 
 .phone-call {
