@@ -13,17 +13,23 @@ body {
 
 /* button */
 
-.btn-primary {
-    padding: 12px 22px;
+.primary-btn {
+    padding: 9px 22.5px;
+    font-size: 15.5px;
     box-shadow: 4.5px 4.5px  0 0 #616161;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
+.primary-btn:hover,
+.primary-btn:focus {
     box-shadow: none;
     /* border-radius: inherit; */
     transform: translateY(0.25em);
+    transition: linear;
 
+}
+
+.sider--btn {
+    background: black;
 }
 
 /* primary header */
@@ -37,7 +43,7 @@ body {
     background: #f04c23;
     box-shadow: 10.2px 7px 0 0 #f79a82;
     transform: skewX(-25deg);  
-    padding: 0 46px 0 0;   
+    padding: 0 46px 0 0px;   
     margin: 0 0 3px 0; 
 }
 
@@ -64,9 +70,9 @@ body {
 
 .item-two,
 .item-three {
-    padding: 4px 13px;
+    padding: 13.5px 13px;
     position: relative;
-    top: 10.5px;
+    top: 1px;
 }
 
 .social-list {
@@ -74,8 +80,12 @@ body {
 }
 
 
-.social-list li:hover {
+.social-list li div:hover {
     border: 1px solid red;
+}
+
+.nav-list ul li:hover {
+    color: #f04c23;
 }
 
 /* header-p-two */ 
@@ -104,13 +114,68 @@ body {
     padding: 45px 36px;
 }
 
+.nav>ul>li.dropdown:hover>a.dropdown-menu {
+    content: '';
+    display: block;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px; */
+}
+
+.dropdown-menu {
+    /* top: -10000px; */
+    display: block;
+    /* opacity: 0; */
+    left: auto;
+    border-radius: 0 4px 4px;
+    border: 0;
+    border-top: 3px solid #f04c23;
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.07);
+    margin: 0;
+    min-width: 200px;
+    /* padding: 5px 0; */
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    font-size: 14.3px;
+    line-height: 2.5;
+    padding: 7px 20px;
+    background: white;
+    color: rgb(165, 165, 165);
+}
+
+.search-box {
+    position: absolute;
+    top: 128px;
+    right: 95px;
+}
+
+.search-box input {
+    min-width: 270px;
+    height: 38px;
+    background: rgb(252, 252, 252);
+    font-size: 12px;
+    color: rgb(26, 26, 26);
+    padding: 0 0 0 11.5px;
+    outline: none;
+    border: 0.2px solid rgb(238, 238, 238);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(231, 231, 231);
+}
+
+
+
+
 
 
 
 
 
 .padding-block {
-    padding-left: 113px;
+    padding-left: 100px;
 }
 
 @tailwind base;

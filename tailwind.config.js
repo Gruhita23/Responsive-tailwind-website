@@ -4,6 +4,14 @@ module.exports = {
   theme: {
     extend: {},
   },
+
+  variants: {
+    extend: {
+      // display: ["active"],
+      // fontSize: ["active"],
+    },
+  },
+
   plugins: [],
 }
 
