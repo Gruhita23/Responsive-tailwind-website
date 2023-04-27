@@ -22,7 +22,6 @@ body {
 .primary-btn:hover,
 .primary-btn:focus {
     box-shadow: none;
-    /* border-radius: inherit; */
     transform: translateY(0.25em);
     transition: ease 0.35s;
 
@@ -39,6 +38,23 @@ body {
 .sider-btn-grp:hover > div {
     display: block;
 }
+
+.quote-btn {
+    background: #f04c23;
+    box-shadow: 4.5px 4.5px  0 0 #ff8262;
+    font-size: 15.5px;
+    color: white;
+    padding: 12.7px 31.2px;
+}
+
+.quote-btn:hover {
+    background: #f26947;
+    box-shadow: none;
+    transform: translateY(0.25em);
+    transition: ease 0.35s;
+}
+
+
 
 /* primary header */
 
@@ -60,7 +76,6 @@ body {
 .call {
     transform: skewX(25deg);
 }
-
 
 .mail {
     transform: skewX(25deg);
@@ -159,21 +174,15 @@ ul.dropdown-menu li > a:hover {
 
 /* strategy execution */
 
-.bg-image {
-    background: url(images/background-woman.png);
-    background-repeat: no-repeat;
-    background-size: (100%, 50%);
-    background-position: top right;
-}
-
 .slider-one {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
-.slider-one > li {
+.slider-one > ul > li {
     cursor: pointer;
-    min-width: 310px;
-    background: white;
+    min-width: 100%;
+    max-width: 760px;
+    background: rgb(250, 250, 250);
     padding: 45px 36px;
 }
 
@@ -185,10 +194,6 @@ ul.dropdown-menu li > a:hover {
 }
 
 /* ABOUT US */
-
-.about-us {
-
-}
 
 .letter-space {
     color: #f04c23;
@@ -206,20 +211,43 @@ ul.dropdown-menu li > a:hover {
     font-size: 15.5px;
 }
 
-
-
-
-
-
-
-
-.padding-block {
-    padding: 0 0 0px 100px;
+.generic-logos {
+  width: 2100px;
+  overflow: hidden;
 }
+
+
+
+
+
+@media (min-width: 768px)
+{
+    .bg-image {
+        background: url(images/background-woman.png);
+        background-repeat: no-repeat;
+        background-size: (100%, 50%);
+        background-position: top right;
+    }
+
+    
+    .padding-block {
+        padding: 0 0 0px 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .strategic-execution > h1 {
+        font-size: 88px;
+    }
+}
+
+
 
 .container {
-    padding: 0 0 0 17px;
+    margin: auto;
+    padding: 0px 12px;
 }
+
 
 @tailwind base;
 @tailwind components;
