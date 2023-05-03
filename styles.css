@@ -241,10 +241,6 @@ ul.dropdown-menu li > a:hover {
 
 /* premium service */
 
-.card-images > ul {
-
-}
-
 .card-images > ul > li {
     cursor: pointer;
     max-width: 94%;
@@ -252,15 +248,80 @@ ul.dropdown-menu li > a:hover {
     
 }
 
-.card-images > ul > li > a {
-    /* background: white, linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); */
-}
-
 .ps-card-item {
     position: relative;
     top: 95px;
     left: 25px;
 }
+
+/* our amazing team */
+
+.team-members > ul > li {
+    cursor: pointer;
+    /* min-width: 251px; */
+    background: white;
+    padding: 0 0 5px 0;
+}
+
+.member-name:hover,
+.member-name:focus {
+    color: #f04c23;
+}
+
+.member-img {
+    min-height: 100vh;
+}
+
+.team-m1 {
+    background: url(images/team-1.jpg);
+    background-size: cover;
+}
+
+.team-m2 {
+    background: url(images/team-2.jpg);
+    background-size: cover;
+}
+
+.team-m3 {
+    background: url(images/team-3.jpg);
+    background-size: cover;
+}
+
+.team-m4 {
+    background: url(images/team-4.jpg);
+    background-size: cover;
+}
+
+.team-m5 {
+    background: url(images/team-5.jpg);
+    background-size: cover;
+}
+
+.team-m1:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-1.jpg);
+    background-size: cover;
+}
+
+.team-m2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-2.jpg);
+    background-size: cover;
+}
+
+.team-m3:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-3.jpg);
+    background-size: cover;
+}
+
+.team-m4:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-4.jpg);
+    background-size: cover;
+}
+
+.team-m5:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-5.jpg);
+    background-size: cover;
+}
+
 
 
 
@@ -304,6 +365,15 @@ ul.dropdown-menu li > a:hover {
     .generic-logos ul > li {
         min-width: 256px;
     }
+
+    .team-members > ul > li {
+        min-width: 237px;
+        margin-inline: auto;
+    }
+
+    .member-img {
+        min-height: 235.55px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -314,11 +384,14 @@ ul.dropdown-menu li > a:hover {
 
     .slider-btn {
         position: relative;
-        /* left: -400px; */
     }
 
     .slider-btn-2 {
         padding: 0 0 0 0px;
+    }
+
+    .team-members > ul > li {
+        min-width: 245px;
     }
 }
 
