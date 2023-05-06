@@ -137,7 +137,7 @@ main {
 
 li.dropdown:hover > ul {
     display: block;
-}
+}   
 
 .dropdown-menu {
     left: auto;
@@ -320,6 +320,46 @@ ul.dropdown-menu li > a:hover {
 .team-m5:hover {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-5.jpg);
     background-size: cover;
+}
+
+/* get in touch */
+
+input, 
+textarea {
+    width: 100%;
+    height: 40px;
+    /* align-items: center; */
+    background: transparent;
+    border-bottom: 0.5px solid rgb(82, 82, 82);
+    padding: 0 0 0 20px;
+    outline: none;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+/* get-in-touch */
+
+.get-in-touch {
+    width: 1440px; 
+    background: linear-gradient(
+        rgba(216, 63, 12, 0.85),
+        rgba(216, 63, 12, 0.85)
+        ),
+        url(images/background-2.jpg) no-repeat right; 
+    margin-inline: auto;
+}
+
+/* testimonials */
+
+.testimonials > ul > li {
+    min-width: 1050px;
+    /* box-shadow: 2px 2px 10px 5px rgb(75, 74, 74); */
 }
 
 
