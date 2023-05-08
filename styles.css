@@ -66,6 +66,19 @@ main {
     left: 125px;
 }
 
+.blog-btn {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #f04c23;
+    line-height: 1.2;
+    box-shadow: 5px 5px 0 0 rgba(240, 91, 54, 0.7);
+    position: relative;
+    top: 97px;
+    left: 269px;
+}
+
 
 
 /* primary header */
@@ -258,7 +271,6 @@ ul.dropdown-menu li > a:hover {
 
 .team-members > ul > li {
     cursor: pointer;
-    /* min-width: 251px; */
     background: white;
     padding: 0 0 5px 0;
 }
@@ -328,7 +340,6 @@ input,
 textarea {
     width: 100%;
     height: 40px;
-    /* align-items: center; */
     background: transparent;
     border-bottom: 0.5px solid rgb(82, 82, 82);
     padding: 0 0 0 20px;
@@ -343,8 +354,6 @@ textarea {
     letter-spacing: 0.5px;
 }
 
-/* get-in-touch */
-
 .get-in-touch {
     width: 1440px; 
     background: linear-gradient(
@@ -358,8 +367,72 @@ textarea {
 /* testimonials */
 
 .testimonials > ul > li {
-    min-width: 1050px;
-    /* box-shadow: 2px 2px 10px 5px rgb(75, 74, 74); */
+    min-width: 100%;
+    margin-inline: auto;
+    box-shadow: 0 0 5px 1.5px rgb(219, 219, 219);
+}
+
+/* the blog */
+
+.blog > ul >li {
+    cursor: pointer;
+    max-width: 358.66px;
+    background: white;
+    box-shadow: 0 0 5px 0.5px rgb(219, 219, 219);
+}
+
+
+.blog > ul >li:hover .blog-btn  {
+    box-shadow: none;
+    transform: translate3d(5px,5px,0);
+    transition: ease transform 700ms;
+}
+
+.blog-item {
+    height: 187.08px;
+}
+
+.blog-date {
+    display: block;
+    font-size: 11px; 
+    text-transform: uppercase; 
+    letter-spacing: 1.7px;
+    font-weight: 800;
+}
+
+.blog-p2 h1:hover {
+   color: #f04c23 !important;
+}
+
+.blog-item-1 {
+    background: url(images/blog-1.jpg);
+    background-size: cover;
+}
+
+.blog-item-2 {
+    background: url(images/blog-2.jpg);
+    background-size: cover;
+}
+
+.blog-item-3 {
+    background: url(images/blog-3.jpg);
+    background-size: cover;
+}
+
+
+.blog-item-1:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-1.jpg);
+    background-size: cover;
+}
+
+.blog-item-2:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-1.jpg);
+    background-size: cover;
+}
+
+.blog-item-3:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-1.jpg);
+    background-size: cover;
 }
 
 
@@ -459,6 +532,7 @@ textarea {
 .container {
     margin: auto;
     padding: 0px 12px;
+    margin-inline: auto;
 }
 
 
