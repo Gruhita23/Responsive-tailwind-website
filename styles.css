@@ -455,6 +455,7 @@ textarea {
 .footer-grp {
     border-top: 1px solid #505050;
     border-bottom: 1px solid #505050;
+    margin-inline: auto;
 
 }
 
@@ -472,6 +473,15 @@ textarea {
 .social-list > li:hover {
     border: 1px solid red;
     border-radius: 50%;
+}
+
+.useful-list > li > a:hover {
+    color: white;
+    padding: 0 0 0 2.8px;
+}
+
+.iframe {
+    width: 356px;
 }
 
 
@@ -526,6 +536,15 @@ textarea {
     .member-img {
         min-height: 235.55px;
     }
+    
+    .iframe {
+        width: 100%;
+    }
+    
+    .google-map :nth-child(2) > .bg-white {
+        width: 356px;
+        margin-inline: auto;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -551,6 +570,15 @@ textarea {
         top: 100px;
         left: 200px;
     }
+
+    .iframe {
+        width: 295.98px;
+    }
+
+    .google-map :nth-child(2) > .bg-white {
+        width: 284.5px;
+        margin-inline: auto;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -575,6 +603,15 @@ textarea {
 @media (min-width: 1280px) {
     .strategic-execution > h1 {
         font-size: 88px;
+    }
+
+    .iframe {
+        width: 356px;
+    }
+
+    .google-map :nth-child(2) > .bg-white {
+        width: 344px;
+        margin-inline: auto;
     }
 }
 
