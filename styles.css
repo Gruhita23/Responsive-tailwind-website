@@ -144,9 +144,12 @@ main {
     padding: 0 -0.5px 0 0;
 }
 
-
 .social-list li div:hover {
     border: 1px solid red;
+}
+
+.social-icon li:hover {
+    color: white;
 }
 
 .nav-list ul li:hover {
@@ -212,6 +215,16 @@ ul.dropdown-menu li > a:hover {
 }
 
 /* strategy execution */
+
+.strategy-execution > h1 {
+
+    background: url(images/text-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 87px;
+}
 
 .slider-one > ul {
     overflow: scroll;
@@ -622,6 +635,8 @@ textarea {
     padding: 0px 12px;
     margin-inline: auto;
 }
+
+
 
 
 @tailwind base;

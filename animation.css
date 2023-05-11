@@ -1,0 +1,70 @@
+/* fadeInUp-head */
+
+.fadeInUp-head {
+    animation:fadeInUp-head 1.3s ease backwards;
+}
+
+@keyframes fadeInUp-head {
+  0% { transform:translate(0px, 100px); opacity: 0; }
+  100% { transform:translate(0px, 0); opacity: 1; }
+}
+
+/* fadeInUp-content-1 */
+
+.fadeInUp-content-1 {
+    animation: fadeInUp-content-1 1.3s ease backwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp-content-1 {
+  0% { transform:translate(0px, 100px); opacity: 0; }
+  100% { transform:translate(0px, 0); opacity: 1; }
+}
+
+/* fadeInUp-content-2 */
+
+.fadeInUp-content-2 {
+    animation: fadeInUp-content-2 1.3s ease backwards;
+    animation-delay: 0.55s;
+}
+
+@keyframes fadeInUp-content-2 {
+  0% { transform:translate(0px, 100px); opacity: 0; }
+  100% { transform:translate(0px, 0); opacity: 1; }
+}
+
+/* fadeInUp-scroll-down */
+
+.fadeInUp-scroll-down {
+    animation: fadeInUp-scroll-down 1.3s ease backwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes fadeInUp-scroll-down {
+  0% { transform:translate(0px, 100px); opacity: 0; }
+  100% { transform:translate(0px, 0); opacity: 1; }
+}
+
+/* fadeInUp-bg-image */
+
+.fadeInUp-bg-image {
+    animation: fadeInUp-bg-image 1.3s ease backwards;
+    animation-delay: 0.9s;
+}
+
+@keyframes fadeInUp-bg-image {
+  0% { transform:translate(0px, 100px); opacity: 0; }
+  100% { transform:translate(0px, 0); opacity: 1; }
+}
+
+/* slider-one */
+
+.fadeInUp-slider-one {
+    animation: fadeInUp-slider-one 3s ease;
+}
+
+@keyframes fadeInUp-slider-one {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% {  opacity: 1; }
+}
