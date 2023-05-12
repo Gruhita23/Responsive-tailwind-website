@@ -216,16 +216,6 @@ ul.dropdown-menu li > a:hover {
 
 /* strategy execution */
 
-.strategy-execution > h1 {
-
-    background: url(images/text-background.jpg);
-    background-repeat: no-repeat;
-    background-position: 20% 30%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 87px;
-}
-
 .slider-one > ul {
     overflow: scroll;
 }
@@ -372,13 +362,11 @@ textarea {
     border-bottom: 0.5px solid rgb(82, 82, 82);
     padding: 0 0 0 20px;
     outline: none;
-    color: white;
 }
 
 ::-webkit-input-placeholder {
     font-size: 14px;
     font-weight: bold;
-    color: white;
     letter-spacing: 0.5px;
 }
 
@@ -504,7 +492,7 @@ textarea {
 @media (min-width: 768px)
 {
     .padding-block {
-        padding: 0 0 0px 100px;
+        padding: 0 0 0px 30px;
     }
 
     .bg-image {
@@ -560,7 +548,29 @@ textarea {
     }
 }
 
+@media (max-width: 991px) {
+    .strategy-execution > h1 {
+        white-space: normal !important;
+    }
+}
+
+
 @media (min-width: 1024px) {
+
+    .padding-block {
+        padding: 0 0 0px 50px;
+    }
+
+    .strategy-execution > h1 {
+
+        background: url(images/text-background.jpg);
+        background-repeat: no-repeat;
+        background-position: 20% 30%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+    }
+
     .slider-one {
         justify-items: center;
         margin-inline: auto;
@@ -595,6 +605,11 @@ textarea {
 }
 
 @media (min-width: 1200px) {
+
+    .padding-block {
+        padding: 0 0 0px 100px;
+    }
+
     .slider-one {
         position: relative;
         top: -128px;
@@ -626,6 +641,11 @@ textarea {
         width: 344px;
         margin-inline: auto;
     }
+
+    .strategy-execution > h1 {
+        font-size: 87px;
+    }
+    
 }
 
 
