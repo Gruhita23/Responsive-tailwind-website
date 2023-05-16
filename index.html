@@ -1178,14 +1178,15 @@
                             <h1 class="text-4xl font-semibold text-white lg:pr-3">Send Us a Message and Learn More About Our Services</h1>
                             <p class="py-3.5 font-medium text-slate-100/40 lg:pr-3" style="font-size: 17px;">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet.</p>
                             
-                            <form name="Contact" method="POST" data-netlify="true" class="pt-6 space-y-5 text-white text-sm">
-                                <input class="pl-3" type="text" placeholder="* Full Name">
-                                <input class="pl-3" type="text" placeholder="* Emial Address">
-                                <textarea class="h-48 pl-3" name="" id="" cols="30" rows="10" placeholder="* Message"></textarea>
+                            <form name="Contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="pt-0 space-y-5 text-white text-sm">
+                                <input type="hidden" name="form-name" value="Contact">
+                                <input class="pl-3" type="text" name="user-name" placeholder="* Full Name">
+                                <input class="pl-3" type="text" name="user-email" placeholder="* Emial Address">
+                                <textarea class="h-48 pl-3" name="message" id="" cols="30" rows="10" placeholder="* Message"></textarea>
+                                <div>
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
                             </form>
-                            <div>
-                                <div data-netlify-recaptcha="true"></div>
-                            </div>
                             <div class="pt-6">
                                 <a href="">
                                     <button type="submit" class="quote-btn font-bold" style="background: #f04c23;">Send Message</button>
