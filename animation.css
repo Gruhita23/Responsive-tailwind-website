@@ -2,7 +2,7 @@
   /* fadeInUp-head */
 
 .fadeInUp-head {
-  animation:fadeInUp-head 1.3s ease backwards;
+  animation:fadeInUp-head 1.3s ease;
 }
 
 @keyframes fadeInUp-head {
@@ -69,6 +69,12 @@
 50% { opacity: 0; }
 100% {  opacity: 1; }
 }
+}
+
+.fadeInUp-about-us {
+  visibility: visible;
+  animation-delay: 0.3s;
+  animation-name: fadeInUp-about-us;
 }
 
 .slider-scroll > li a > .card-img > .custom-crooked-line {

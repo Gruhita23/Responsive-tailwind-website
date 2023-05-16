@@ -506,7 +506,7 @@
                         </div>
                         <div class="xl:pr-28 relative lg:-top-10">
                             <div class="about-us space-y-3">
-                                <h3 class="fadeInUp-head letter-space font-semibold">ABOUT US</h3>
+                                <h3 class="wow fadeInUp-about-us letter-space font-semibold" data-wow-delay="0.3s">ABOUT US</h3>
                                 <h1 class="text-4xl font-bold text-slate-900/90">We deliver the most advanced strategies
                                     for your business</h1>
                                 <p class="py-4 font-medium lg:pr-3">Cras a elit sit amet leo accumsan volutpat.
@@ -1177,14 +1177,18 @@
                             <h3 class="letter-space font-semibold">GET IN TOUCH</h3>
                             <h1 class="text-4xl font-semibold text-white lg:pr-3">Send Us a Message and Learn More About Our Services</h1>
                             <p class="py-3.5 font-medium text-slate-100/40 lg:pr-3" style="font-size: 17px;">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet.</p>
-                            <form action="" class="pt-6 space-y-5 text-white text-sm">
+                            
+                            <form name="Contact" method="POST" data-netlify="true" class="pt-6 space-y-5 text-white text-sm">
                                 <input class="pl-3" type="text" placeholder="* Full Name">
                                 <input class="pl-3" type="text" placeholder="* Emial Address">
                                 <textarea class="h-48 pl-3" name="" id="" cols="30" rows="10" placeholder="* Message"></textarea>
                             </form>
+                            <div>
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
                             <div class="pt-6">
                                 <a href="">
-                                    <button class="quote-btn font-bold">Send Message</button>
+                                    <button type="submit" class="quote-btn font-bold" style="background: #f04c23;">Send Message</button>
                                 </a>
                             <div>
                         </div>
@@ -1494,9 +1498,12 @@
                 </div>
             </div>
             <div class="hidden text-white pr-2.5 -bottom-0.5 right-0 fixed lg:flex" style="justify-content: flex-end;">
-                <button class="bg-gray-600 px-5 py-3" style="background: #6e6e6e;">
-                    <i class="fas fa-chevron-up text-xs"></i>
-                </button>
+                <a href="">
+                    <button class="bg-gray-600 px-5 py-3" style="background: #6e6e6e;">
+                        <i class="fas fa-chevron-up text-xs"></i>
+                    </button>
+                </a>
+                
             </div>
         </footer>
     </main>
