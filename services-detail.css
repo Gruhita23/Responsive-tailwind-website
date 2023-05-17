@@ -1,0 +1,11 @@
+
+.que-ans > ul > li {
+    padding: 23px 30px;
+    background-color: #f1f1f1;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
