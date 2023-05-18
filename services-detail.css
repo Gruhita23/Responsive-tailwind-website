@@ -1,8 +1,21 @@
 
-.que-ans > ul > li {
+
+.que-ans > ul > li > .f-child {
     padding: 23px 30px;
     background-color: #f1f1f1;
 }
+
+.que-ans > ul > li > .f-child:hover {
+    color: #f04c23;
+}
+
+@media (min-width: 1280px) {
+    .que-ans > ul > li {
+    width: 830px;
+    /* max-width: 100vw; */
+}
+}
+
 
 
 
