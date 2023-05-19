@@ -655,6 +655,10 @@ textarea {
     margin-inline: auto;
 }
 
+.border-bottom {
+    border-bottom: 0.2px solid rgba(50, 50, 50, 0.11);
+}
+
 
 
 
