@@ -95,7 +95,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build":"vite build"
   },
   "repository": {
     "type": "git",
