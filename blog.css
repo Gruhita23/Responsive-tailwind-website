@@ -40,13 +40,21 @@
     text-decoration: underline;
 }
 
+/* section part 2 */
+
+@media (min-width: 1024px) {
+    .blog-sec-part-2 {
+        width: 320px !important;
+    }
+}
+
 /* search-box */
 
 .search-input {
     height: 45px;
     background: #f3f3f3;
     border: none;
-    padding: 0 0 0 13px;
+    padding: 0 10px 0 13px;
     font-size: 11.2px;
 }
 
@@ -54,3 +62,19 @@
     font-size: 11.2px;
     font-weight: normal;
 }
+
+/* recent-posts */
+
+.recent-posts > ul > li h4:hover {
+    color: #f04c23;
+}
+
+.categoty-items:hover {
+    color: #f04c23;
+}
+
+.category-photos-list > li:hover  {
+    color: #f04c23;
+}
+
+
