@@ -1,11 +1,14 @@
 
+details > p {
+    box-shadow: 0 0 5px 0.5px rgb(219, 219, 219);
+}
 
-.que-ans > ul > li > .f-child {
+.summary-part {
     padding: 23px 30px;
     background-color: #f1f1f1;
 }
 
-.que-ans > ul > li > .f-child:hover {
+.summary-part:hover {
     color: #f04c23;
 }
 
