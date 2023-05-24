@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
     "autoprefix": "^1.0.1",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
@@ -95,8 +96,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "start": "vite",
-    "build":"vite build"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
