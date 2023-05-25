@@ -1,17 +1,23 @@
-<!DOCTYPE html>
+---
+title: Business Consulting
+layout: 'base.njk'
+---
+
+<!-- <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Services-detail</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="services-detail.css">
     <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
-<body>
+
+<body> -->
     <header class="">
         <div class="primary-header">
             <div class="header-p-one flex justify-between">
@@ -134,15 +140,15 @@
                         <nav class="nav-list">
                             <ul class="inline-flex space-x-10 font-semibold text-gray-700 cursor-pointer">
                                 <li class="">
-                                    <a href="#">Home</a>
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li class="">
                                     <a href="#">About Us</a>
                                 </li>
-                                <li class="dropdown cursor-pointer">
+                                <li class="dropdown cursor-pointer text-orange-600">
                                     <a class="dropdown-toggle" class="" href="#">Services</a>
                                     <ul class="dropdown-menu font-medium hidden">
-                                        <li><a href="services-detail.html">Sales & Marketing</a></li>
+                                        <li><a href="#">Sales & Marketing</a></li>
                                         <li><a href="#">Strategic planning</a></li>
                                         <li><a href="#">operations</a></li>
                                         <li><a href="#">Cast Transformation</a></li>
@@ -157,8 +163,8 @@
                                 <li class="">
                                     <a href="#">Team</a>
                                 </li>
-                                <li class="text-orange-600">
-                                    <a href="#">Blog</a>
+                                <li class="">
+                                    <a href="blog.html">Blog</a>
                                 </li>
                             </ul>
                         </nav>
@@ -197,6 +203,7 @@
     </header>
 
     <main>
+
         <div class="group-button space-y-0.5 fixed text-white hidden md:grid">
             <a class="sider-btn-grp flex space-x-0.5" href="">
                 <button class="sider-btn" style="padding: 11px;">
@@ -212,7 +219,8 @@
             <a class="sider-btn-grp flex space-x-0.5" href="">
                 <button class="sider-btn px-1.5" style="padding: 11.5px;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
-                        <path fill="white" d="M7 22q-.825 0-1.413-.588T5 20q0-.825.588-1.413T7 18q.825 0 1.413.588T9 20q0 .825-.588 1.413T7 22Zm10 0q-.825 0-1.413-.588T15 20q0-.825.588-1.413T17 18q.825 0 1.413.588T19 20q0 .825-.588 1.413T17 22ZM7 17q-1.125 0-1.7-.988t-.05-1.962L6.6 11.6L3 4H1.975q-.425 0-.7-.288T1 3q0-.425.288-.713T2 2h1.625q.275 0 .525.15t.375.425L5.2 4h14.75q.675 0 .925.5t-.025 1.05l-3.55 6.4q-.275.5-.725.775T15.55 13H8.1L7 15h11.025q.425 0 .7.288T19 16q0 .425-.288.713T18 17H7Z" />
+                        <path fill="white"
+                            d="M7 22q-.825 0-1.413-.588T5 20q0-.825.588-1.413T7 18q.825 0 1.413.588T9 20q0 .825-.588 1.413T7 22Zm10 0q-.825 0-1.413-.588T15 20q0-.825.588-1.413T17 18q.825 0 1.413.588T19 20q0 .825-.588 1.413T17 22ZM7 17q-1.125 0-1.7-.988t-.05-1.962L6.6 11.6L3 4H1.975q-.425 0-.7-.288T1 3q0-.425.288-.713T2 2h1.625q.275 0 .525.15t.375.425L5.2 4h14.75q.675 0 .925.5t-.025 1.05l-3.55 6.4q-.275.5-.725.775T15.55 13H8.1L7 15h11.025q.425 0 .7.288T19 16q0 .425-.288.713T18 17H7Z" />
                     </svg>
                 </button>
                 <div class="relative -top-6 hidden">
@@ -236,11 +244,11 @@
                         <ul class="breadcrumb flex space-x-2 text-xs text-center" style="margin-inline: auto; justify-content: center;">
                             <li class="opacity-90 hover:underline" style="color: #f04c23;"><a href="index.html">Home</a></li>
                             <i class="fas fa-angle-right opacity-30 pt-1"></i>
-                            <li class="active uppercase opacity-60" style="font-size: 11.2px; padding-top: 0.5px;">Blog</li>
+                            <li class="active uppercase opacity-60" style="font-size: 11.2px; padding-top: 0.5px;">Sales &amp; Marketing</li>
                         </ul>
                     </div>
                     <div class="">
-                        <h1 class="text-4xl font-extrabold" style="letter-spacing: -1px;">Blog</h1>
+                        <h1 class="text-4xl font-extrabold" style="letter-spacing: -1px;">Sales & Marketing</h1>
                     </div>
                 </div>
             </div>
@@ -252,214 +260,194 @@
             </div>
         </section>
 
-        <section class="pt-16 pb-28">
-            <div class="container pl-4 md:px-8 lg:px-12 xl:pl-20 xl:pr-16">
-                <div class="lg:space-x-10 md:ml-0.5 space-y-20 lg:flex lg:space-y-0">
-                    <div class="space-y-12">
-                        <div class="space-y-4">
-                            <div class="space-y-5">
-                                <img class="rounded-t-md" src="images/blog-1.jpg" alt="" width="736">
-                                <p class="opacity-50" style="font-size: 11.5px;">
-                                    10 JAN 2023 <span class="px-2">|</span> 3 COMMENTS <span class="px-2">|</span> JOHN DOE
-                                </p>
-                            </div>
-                            <div class="space-y-4">
-                                <h1 class="hover-text-color text-xl font-black" style="word-spacing: -1.6px;">
-                                    <a href="#">An Interview with John Deo</a> 
-                                </h1>
-                                <p class="opacity-60" style="font-size: 15.48px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem , consectetur adipiscing elit...</p>
-                                <div class="read-more inline-block">
-                                    <a href="#">
-                                        <span class="flex space-x-2.5" style="color: #f04c23;">  
-                                            <b class="text-sm">Read More</b>
-                                            <div class="aero relative -top-0.5 font-bold">
-                                                <svg fill="#f04c23" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_11684482569746" data-filename="arrow-right.svg" width="27" height="27">
-                                                    <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24  "></polygon>
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="space-y-4">
-                            <div class="space-y-5">
-                                <img class="rounded-t-md" src="images/blog-2.jpg" alt="" width="736">
-                                <p class="opacity-50" style="font-size: 11.5px;">
-                                    10 JAN 2023 <span class="px-2">|</span> 3 COMMENTS <span class="px-2">|</span> JOHN DOE
-                                </p>
-                            </div>
-                            <div class="space-y-4">
-                                <h1 class="hover-text-color text-xl font-black" style="word-spacing: -1.6px;">
-                                    <a href="#">How to Grow Your Business</a> 
-                                </h1>
-                                <p class="opacity-60" style="font-size: 15.48px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem , consectetur adipiscing elit...</p>
-                                <div class="read-more inline-block">
-                                    <a href="#">
-                                        <span class="flex space-x-2.5" style="color: #f04c23;">  
-                                            <b class="text-sm">Read More</b>
-                                            <div class="aero relative -top-0.5 font-bold">
-                                                <svg fill="#f04c23" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_11684482569746" data-filename="arrow-right.svg" width="27" height="27">
-                                                    <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24  "></polygon>
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div>
-                            <ul class="scroll-btn flex space-x-2 justify-center" style="margin-inline: auto;">
-                                <li>
-                                    <a href="">
-                                        <div> <i class="fas fa-angle-left"></i> </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div> <span>1</span> </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div> <span>2</span> </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div> <span>3</span> </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div> <i class="fas fa-angle-right"></i> </div>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </div>
+        <section class="py-10">
+            <div class="container bg-white md:px-16 lg:px-10 xl:px-24" style="margin-inline: auto; justify-content: center;">
+                <div class="lg:flex justify-between lg:space-x-12 space-y-16 lg:space-y-0">
+                    <div class="space-y-6 opacity-60" style="width: 630px; max-width: 100vw; line-height: 1.6;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus laoreet lacinia. Maecenas luctus arcu ut orci lacinia ultrices. Praesent semper porta interdum. Etiam cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat.</p>
+                        <p>Curabitur vulputate posuere tortor luctus vulputate. Cras laoeet pretium blandit. Vestibulum luctus laoreet lacinia. Maecenas luctus arcu ut orci lacinia ultrices. Etiam cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat.</p>
+                        <p>Praesent semper porta interdum. Etiam cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-
-                    <div class="blog-sec-part-2 space-y-5 pl-4 lg:pl-0">
-                        <div class="border-bottom space-y-3.5 pb-10">
-                            <h2 class="text-xl font-extrabold opacity-90" style="word-spacing: -1.5px;">About The Blog</h2>
-                            <p class="opacity-60">Lorem ipsum dolor sit amet, conse elit porta. Vestibulum ante justo, volutpat quis porta diam.</p>
+                    <div class="">
+                        <div class="pl-16 md:pl-20">
+                            <img class="shadow-md" src="images/generic-6.jpg" alt="" width="356" height="185.69">
                         </div>
-                        <div class="border-bottom flex pt-4 pb-9">
-                            <input class="search-input" type="text" placeholder="Search...">
-                            <button class="relative right-8">
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.5"
-                                        viewBox="0 0 24 24">
-                                        <path fill="none" stroke="black" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2"
-                                            d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6" />
-                                    </svg>
-                            </button>
-                        </div>
-                        <div class="recent-posts border-bottom pt-8 pb-9 space-y-5 cursor-default">
-                            <h2 class="text-xl font-extrabold opacity-90" style="word-spacing: -1.5px;">Recent Posts</h2>
-                            <ul class="space-y-5 cursor-pointer">
-                                <li>
-                                    <p class="opacity-50" style="font-size: 11.45px;">
-                                        10 JAN 2023 <span class="px-2">|</span> 3 COMMENTS <span class="px-2">|</span> JOHN DOE
-                                    </p>
-                                    <h4 class="font-bold pt-1 opacity-90">Lorem ipsum dolor sit amet</h4>
-                                </li>
-                                <li>
-                                    <p>
-                                        <p class="opacity-50" style="font-size: 11.45px;">
-                                            10 JAN 2023 <span class="px-2">|</span> 3 COMMENTS <span class="px-2">|</span> JOHN DOE
-                                        </p>
-                                        <h4 class="font-bold pt-1 opacity-90">consectetur adipiscing elit</h4>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <p class="opacity-50" style="font-size: 11.45px;">
-                                            10 JAN 2023 <span class="px-2">|</span> 3 COMMENTS <span class="px-2">|</span> JOHN DOE
-                                        </p>
-                                        <h4 class="font-bold pt-1 opacity-90">Vivamus sollicitudin nibh luctus</h4>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="recent-posts border-bottom cursor-default pt-8 pb-9 space-y-4">
-                            <h2 class="text-xl font-extrabold opacity-80" style="word-spacing: -1.5px;">Recent Comments</h2>
-                            <ul class="cursor-pointer space-y-4">
-                                <li class="flex">
-                                    <p class="text-sm opacity-60">Admin on <br> <span style="font-size: 10.1px;">10 JAN 2023</span> </p>
-                                    <h4 class="pl-1.5 font-black opacity-80" style="font-size: 15px;">Vivamus sollicitudin</h4>
-                                </li>
-                                <li class="flex"> 
-                                    <p class="text-sm opacity-60">John Deo on <br> <span style="font-size: 10.1px;">10 JAN 2023</span> </p>
-                                    <h4 class="pl-1.5 font-black opacity-80" style="font-size: 15px;">Lorem ipsum dolor</h4>
-                                </li>
-                                <li class="flex">
-                                    <p class="text-sm opacity-60">Admin on <br> <span style="font-size: 10.1px;">10 JAN 2023</span> </p>
-                                    <h4 class="pl-1.5 font-black opacity-80" style="font-size: 15px;">Consectetur adipiscing</h4>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="categories pt-4 space-y-3.5 cursor-default">
-                            <h2 class="text-xl font-extrabold opacity-80 cursor-default" style="word-spacing: -1.5px;">Categories</h2>
-                            <ul class="cursor-pointer space-y-3">
-                                <li>
-                                    <div class="categoty-items">
-                                        <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                        <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Design (2)</a>
-                                    </div> 
-                                </li>
-                                <li>
-                                    <div class="categoty-items">
-                                        <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                        <a class="opacity-90 pl-0.5 font-bold" style="font-size: 12.7px;" href="#">Photos (4)</a>
-                                    </div>
-                                    <ul class="category-photos-list pt-3.5 pl-6 space-y-3">
-                                        <li>
-                                            <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                            <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Animals</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                            <a class="opacity-90 pl-0.5 font-bold" style="font-size: 12.7px;" href="#">Bisuness</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                            <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Sports</a>
-                                        </li>
-                                        <li>
-                                            <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                            <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">People</a>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <li>
-                                    <div class="categoty-items">
-                                        <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                        <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Videos (3)</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="categoty-items">
-                                        <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                        <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Lifestyle (2)</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="categoty-items">
-                                        <span><i class="fas fa-angle-right opacity-40 pt-1 text-xs"></i></span>
-                                        <a class="opacity-70 pl-0.5" style="font-size: 12.7px;" href="#">Technology (1)</a>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="relative -top-11 md:-top-16">
+                            <img class="shadow-md" src="images/generic-3.jpg" alt="" width="285" height="239.94">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        <section class="pb-20" style="margin-inline: auto; justify-content: center;">
+            <div class="container">
+                <div class="space-y-11 md:space-y-0 md:flex md:space-x-5 mx-1.5 xl:px-16">
+                    <div class="que-ans">
+                        <ul class="space-y-4">
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>1 - Why Choose Porto?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>2 - Cras a elit sit amet leo accumsan?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>3 - Hel officitur felis ultricis nan?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>4 - Wuspaisse hendreirit vehicula leo?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                          <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                            <p>5 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?</p>
+                                            <span> + </span>
+                                          </summary>
+                                          <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>6 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="space-y-8">
+                                <div class="f-child">
+                                    <a href="#">
+                                        <details>
+                                            <summary class="summary-part flex justify-between font-extrabold opacity-90" style="font-size: 15.4px;">
+                                                <p>5 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?</p>
+                                                <span> + </span>
+                                            </summary>
+                                            <p class="py-6 px-7 opacity-70">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                        </details>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="md:w-64 text-center md:text-left">
+                        <div class="border-bottom space-y-3.5 pb-10">
+                            <h2 class="text-2xl font-bold" style="word-spacing: -1px;">More About Us</h2>
+                            <p class="opacity-60" style="line-height: 1.6;">Curabitur vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus laoreet lacinia.</p>
+                            <ul class="flex space-x-2.5 opacity-90 justify-center md:justify-start">
+                                <li><img src="images/phone.svg" alt="" width="25" height="25"></li>
+                                <li>
+                                    <p class="font-semibold hover:text-orange-600/100"><a href="tel:+(800) 123-4567">(800) 123-4567</a></p>
+                                </li>
+                            </ul>
+                            <div class="pt-2">
+                                <a href="#">
+                                    <button class="primary-btn px-7 py-3 text-white font-bold bg-neutral-800 hover:bg-neutral-700">Contact Us</butto>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-3.5 pt-8">
+                            <h2 class="text-2xl font-bold" style="word-spacing: -1.7px;">Ready to Start?</h2>
+                            <p class="opacity-60" style="line-height: 1.6;">Curabitur vulputate posuere tortor luctus vulputate laoreet pretium blandit.</p>
+                            <div class="pt-5">
+                                <a href="">
+                                    <button class="quote-btn font-bold">Get a Quote</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-16">
+            <div class="container md:px-14 xl:px-20">
+                <div class="space-y-6 lg:space-y-0 lg:flex lg:space-x-7">
+                    <div class="space-y-5" style="max-width: 645px;">
+                        <h1 class="text-black/90 text-3xl font-bold lg:text-4xl lg:font-semibold"
+                            style="line-height: 1.3; word-spacing: -3.5px;">Skills That Make a Meaningful Difference for Your Business</h1>
+                        <p class="text-slate-900/60 font-medium" style="font-size: 16.5px; letter-spacing: 0.5;">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo.</p>
+                    </div>
+
+                    <div class="w-full relative md:-top-5 lg:pl-11">
+                        <ul class="space-y-9 pt-6">
+                            <li class="space-y-1.5">
+                                <div class="flex justify-between">
+                                    <h4 class="text-xs font-bold">STRATEGY ACCELERATION</h4>
+                                    <h4 class="text-xs font-bold">90%</h4>
+                                </div>
+                                <div class="h-1" style="max-width: 90%; background: #f04c23;"></div>
+                            </li>
+                            <li class="space-y-1.5">
+                                <div class="flex justify-between">
+                                    <h4 class="text-xs font-bold">REVENUE GROWTH</h4>
+                                    <h4 class="text-xs font-bold">80%</h4>
+                                </div>
+                                <div class="h-1" style="max-width: 80%; background: #f04c23;"></div>
+                            </li>
+                            <li class="space-y-1.5">
+                                <div class="flex justify-between">
+                                    <h4 class="text-xs font-bold">FIREWALK SALES</h4>
+                                    <h4 class="text-xs font-bold">50%</h4>
+                                </div>
+                                <div class="h-1" style="max-width: 50%; background: #f04c23;"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="lg:pl-7 xl:pl-24" style="background: url(images/background-4.jpg);">
             <div class="container md:pr-9 xl:pr-28 xl:pl-4">
                 <div class="">
@@ -601,6 +589,6 @@
                 
             </div>
         </footer>
+
     </main>
 </body>
-</html>

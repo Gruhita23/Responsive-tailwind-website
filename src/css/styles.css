@@ -272,7 +272,7 @@ ul.dropdown-menu li > a:hover {
 
 /* premium service */
 
-.card-images > ul > li {
+.card-/images > ul > li {
     cursor: pointer;
     max-width: 94%;
     box-shadow: 0 0 5px 1px rgb(219, 219, 219);
@@ -303,52 +303,52 @@ ul.dropdown-menu li > a:hover {
 }
 
 .team-m1 {
-    background: url(images/team-1.jpg);
+    background: url('/images/team-1.jpg');
     background-size: cover;
 }
 
 .team-m2 {
-    background: url(images/team-2.jpg);
+    background: url(/images/team-2.jpg);
     background-size: cover;
 }
 
 .team-m3 {
-    background: url(images/team-3.jpg);
+    background: url(/images/team-3.jpg);
     background-size: cover;
 }
 
 .team-m4 {
-    background: url(images/team-4.jpg);
+    background: url(/images/team-4.jpg);
     background-size: cover;
 }
 
 .team-m5 {
-    background: url(images/team-5.jpg);
+    background: url(/images/team-5.jpg);
     background-size: cover;
 }
 
 .team-m1:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-1.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/team-1.jpg);
     background-size: cover;
 }
 
 .team-m2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-2.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/team-2.jpg);
     background-size: cover;
 }
 
 .team-m3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-3.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/team-3.jpg);
     background-size: cover;
 }
 
 .team-m4:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-4.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/team-4.jpg);
     background-size: cover;
 }
 
 .team-m5:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/team-5.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/team-5.jpg);
     background-size: cover;
 }
 
@@ -376,7 +376,7 @@ textarea {
         rgba(216, 63, 12, 0.85),
         rgba(216, 63, 12, 0.85)
         ),
-        url(images/background-2.jpg) no-repeat right; 
+        url(/images/background-2.jpg) no-repeat right; 
     margin-inline: auto;
 }
 
@@ -421,33 +421,33 @@ textarea {
 }
 
 .blog-item-1 {
-    background: url(images/blog-1.jpg);
+    background: url(/images/blog-1.jpg);
     background-size: cover;
 }
 
 .blog-item-2 {
-    background: url(images/blog-2.jpg);
+    background: url(/images/blog-2.jpg);
     background-size: cover;
 }
 
 .blog-item-3 {
-    background: url(images/blog-3.jpg);
+    background: url(/images/blog-3.jpg);
     background-size: cover;
 }
 
 
 .blog-item-1:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-1.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/blog-1.jpg);
     background-size: cover;
 }
 
 .blog-item-2:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-2.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/blog-2.jpg);
     background-size: cover;
 }
 
 .blog-item-3:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(images/blog-3.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)), url(/images/blog-3.jpg);
     background-size: cover;
 }
 
@@ -496,7 +496,7 @@ textarea {
     }
 
     .bg-image {
-        background: url(images/background-woman.png);
+        background: url(/images/background-woman.png);
         background-repeat: no-repeat;
         background-size: (100%, 50%);
         background-position: top right;
@@ -562,7 +562,7 @@ textarea {
 
     .strategy-execution > h1 {
 
-        background: url(images/text-background.jpg);
+        background: url(/images/text-background.jpg);
         background-repeat: no-repeat;
         background-position: 20% 30%;
         -webkit-background-clip: text;
